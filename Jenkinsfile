@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('run') {
 	    steps {
-	        echo 'This is run step'
+	        echo 'This is the first run step'
 		sh 'python --version'
 		sh 'python pipeline.py'
             }
